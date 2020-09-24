@@ -10,3 +10,9 @@ body {
 .mb-100 {
     margin-bottom: 100px;
 }
+
+/* Picture on home page, original dimensions 1024 × 683 */
+#main-picture {
+    width: 200px;
+    height: 200px;
+}
