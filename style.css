@@ -15,9 +15,14 @@ a:hover {
     margin-bottom: 100px;
 }
 
-/* Picture on home page, original dimensions 1024 × 683 */
+/* Sizing for images */
 
-#main-picture {
+.img-200 {
     width: 200px;
     height: 200px;
+}
+
+.img-350 {
+    width: 350px;
+    height: 350px;
 }
