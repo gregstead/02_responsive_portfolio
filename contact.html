@@ -7,7 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <!-- Additional CSS -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- Fontawesome dependencies -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/6a4508c33e.js" crossorigin="anonymous"></script>
     <title>Greg Stead - Contact</title>
   </head>
   <body>
@@ -33,7 +37,7 @@
           <div class="row row d-flex mt-5 mx-3 border bg-white">
               <div class="col p-2">
                   <h1 class="border-bottom p-2 text-info" style="font-family: serif;">Contact</h1>
-                  <form class="col-sm-12 col-md-9">
+                  <form class="col-sm-12 col-md-9 mb-3">
                     <div class="form-group">
                       <label for="formName">Name</label>
                       <input type=" text" class="form-control" id="formName" />
@@ -46,8 +50,20 @@
                       <label for="formMessage">Message</label>
                       <textarea type="text" class="form-control" id="formMessage"/></textarea>
                     </div>
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-info">Submit</button>
                   </form>
+                  <!-- Container footer -->
+                  <footer class="text-center border-top p-2">
+                    <a href="https://github.com/gregstead" class="text-info mx-3">
+                        <i class="fab fa-github fa-2x text-decoration-none"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/greg-stead-9883391b4/" class="text-info mx-3">
+                        <i class="fab fa-linkedin fa-2x text-decoration-none"></i>
+                    </a>
+                    <a href="https://twitter.com/soylentgreg" class="text-info mx-3">
+                        <i class="fab fa-twitter fa-2x text-decoration-none"></i>
+                    </a>
+                  </footer>
               </div>
           </div>
         </div>
@@ -56,7 +72,7 @@
     <footer class="bg-dark fixed-bottom mt-5">
       <div style="height: 5px" class="bg-info"></div>
       <div class="text-center">
-          <p>Copyright</p>
+          <p>© Copyright</p>
       </div>
    </footer>
 
